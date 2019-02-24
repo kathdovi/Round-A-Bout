@@ -1,7 +1,9 @@
 # Round-A-Bout
 Welcome to Round-A-Bout: a people-first solution to food waste.
 
-![](https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/logo.png)
+<p align="center">
+  <img src="https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/logo.png" width="256" height="256"   title="Github Logo">
+</p>
 
 ## Inspiration
 Food waste is a pressing problem in the United States. Up to 40% of our food supply goes to waste every year. We believe that it is imperative to do what we can to solve food waste by also solving for food insecurity.
