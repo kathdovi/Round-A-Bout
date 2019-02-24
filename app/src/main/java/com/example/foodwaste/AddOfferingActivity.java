@@ -7,37 +7,35 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
 
 import java.util.ArrayList;
 
 public class AddOfferingActivity extends AppCompatActivity {
 
     android.widget.ListView listView;
+    ArrayList<String> arrayList=new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_offering);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         listView = (android.widget.ListView)findViewById(R.id.listview);
-
-        ArrayList<String> arrayList=new ArrayList<>();
-
-        arrayList.add("Bananas");
-        arrayList.add("Bread");
-        arrayList.add("Milk");
-        arrayList.add("Bananas");
-        arrayList.add("Bread");
-        arrayList.add("Milk");
-        arrayList.add("Milk");
-        arrayList.add("Bananas");
-        arrayList.add("Bread");
-        arrayList.add("Milk");
-
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
-
+        final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
         listView.setAdapter(arrayAdapter);
+
+        Button btnAdd = (Button) findViewById(R.id.addItemBtn);
+        final EditText et = (EditText) findViewById(R.id.itemName);
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                arrayList.add(et.getText().toString());
+                arrayAdapter.setNotifyOnChange(true);
+                listView.setAdapter(arrayAdapter);
+            }
+        });
     }
 
 }

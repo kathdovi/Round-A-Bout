@@ -18,8 +18,6 @@ public class BusinessListingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_listing);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         listView = (android.widget.ListView)findViewById(R.id.listview);
 

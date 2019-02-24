@@ -17,8 +17,6 @@ public class BusinessDashboardActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_business_dashboard);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         fab = (FloatingActionButton) findViewById(R.id.thisbtn);
 
