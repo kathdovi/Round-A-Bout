@@ -17,6 +17,7 @@ public class AddOfferingActivity extends AppCompatActivity {
     android.widget.ListView listView;
     ArrayList<String> arrayList=new ArrayList<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,11 +28,12 @@ public class AddOfferingActivity extends AppCompatActivity {
 
         Button btnAdd = (Button) findViewById(R.id.addItemBtn);
         final EditText et = (EditText) findViewById(R.id.itemName);
+        final EditText qt = (EditText) findViewById(R.id.qty);
         btnAdd.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                arrayList.add(et.getText().toString());
+                arrayList.add(qt.getText().toString() + " – " + et.getText().toString());
                 arrayAdapter.setNotifyOnChange(true);
                 listView.setAdapter(arrayAdapter);
             }
