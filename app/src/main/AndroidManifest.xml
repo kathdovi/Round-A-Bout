@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".AddOfferingActivity"
+            android:label="@string/title_activity_add_offering"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".BusinessLogin"
             android:label="@string/title_activity_business_login"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".BusinessDashboardActivity"
             android:label="@string/title_activity_business_dashboard"

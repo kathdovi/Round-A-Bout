@@ -11,4 +11,5 @@
     <string name="title_activity_business_listing">BusinessListingActivity</string>
     <string name="title_activity_business_dashboard">BusinessDashboardActivity</string>
     <string name="title_activity_business_login">BusinessLogin</string>
+    <string name="title_activity_add_offering">AddOfferingActivity</string>
 </resources>
