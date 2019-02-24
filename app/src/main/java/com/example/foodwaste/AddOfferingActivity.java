@@ -6,9 +6,13 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.ArrayAdapter;
+
+import java.util.ArrayList;
 
 public class AddOfferingActivity extends AppCompatActivity {
 
+    android.widget.ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,14 +20,24 @@ public class AddOfferingActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+        listView = (android.widget.ListView)findViewById(R.id.listview);
+
+        ArrayList<String> arrayList=new ArrayList<>();
+
+        arrayList.add("Bananas");
+        arrayList.add("Bread");
+        arrayList.add("Milk");
+        arrayList.add("Bananas");
+        arrayList.add("Bread");
+        arrayList.add("Milk");
+        arrayList.add("Milk");
+        arrayList.add("Bananas");
+        arrayList.add("Bread");
+        arrayList.add("Milk");
+
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
+
+        listView.setAdapter(arrayAdapter);
     }
 
 }

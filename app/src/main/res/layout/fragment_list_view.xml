@@ -22,13 +22,13 @@
             android:id="@+id/heb"
             android:layout_width="match_parent"
             android:layout_height="89dp"
+            android:clickable="true"
+            android:onClick="go_to"
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
-            android:textSize="30sp"
-            android:clickable="true"
-            android:onClick="go_to"/>
+            android:text="HEB                                     ➤"
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView13"
@@ -37,7 +37,7 @@
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
+            android:text="Pluckers                             ➤"
             android:textSize="30sp" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
+            android:text="Pizza Press                        ➤"
             android:textSize="30sp" />
 
         <TextView
@@ -57,7 +57,7 @@
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
+            android:text="Walmart                             ➤"
             android:textSize="30sp" />
 
         <TextView
@@ -77,7 +77,7 @@
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
+            android:text="Randalls                            ➤"
             android:textSize="30sp" />
 
         <TextView
@@ -87,7 +87,7 @@
             android:paddingLeft="24dp"
             android:paddingTop="22dp"
             android:paddingBottom="10dp"
-            android:text="HEB                                    ➤"
+            android:text="HEB                                   ➤"
             android:textSize="30sp" />
 
     </LinearLayout>

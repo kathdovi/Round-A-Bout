@@ -12,6 +12,7 @@ import android.widget.Button;
 public class BusinessDashboardActivity extends AppCompatActivity {
 
     FloatingActionButton fab;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +20,7 @@ public class BusinessDashboardActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab = (FloatingActionButton) findViewById(R.id.thisbtn);
 
         //Assign a listener to your button
         fab.setOnClickListener(new View.OnClickListener() {
