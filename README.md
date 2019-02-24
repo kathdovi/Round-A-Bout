@@ -1,7 +1,7 @@
 # Round-A-Bout
 A people-first solution to food waste
 
-![](https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/logo.png | width=48)
+![](https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/logo.png)
 
 ## Inspiration
 Food waste is a pressing problem in the United States. Up to 40% of our food supply goes to waste every year. We believe that it is imperative to do what we can to solve food waste by also solving for food insecurity.
