@@ -25,14 +25,13 @@ public class BusinessListingActivity extends AppCompatActivity {
 
         arrayList.add("Bananas");
         arrayList.add("Bread");
-        arrayList.add("Milk");
-        arrayList.add("Bananas");
-        arrayList.add("Bread");
-        arrayList.add("Milk");
-        arrayList.add("Milk");
-        arrayList.add("Bananas");
-        arrayList.add("Bread");
-        arrayList.add("Milk");
+        arrayList.add("Canned Ham");
+        arrayList.add("Mac and Cheese");
+        arrayList.add("Buffalo Wings");
+        arrayList.add("Corn Dogs");
+        arrayList.add("Red Delicious Apples");
+        arrayList.add("Dragonfruit");
+        arrayList.add("Croissant");
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1,arrayList);
 
