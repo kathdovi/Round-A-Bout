@@ -17,6 +17,11 @@ Round-A-Bout also provides an effective way for businesses to track their food e
 Wireframes:
 ![](https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/52344345_632399060507081_9201475559140360192_n-1.png)
 
+Android User & Business Flows:
+<p align="center">
+  <img src="https://github.com/kathdovi/Round-A-Bout/blob/master/user_view.gif" width="256" title="Github Logo">
+  <img src="https://github.com/kathdovi/Round-A-Bout/blob/master/biz_view.gif" width="256" title="Github Logo">
+</p>
 ## How we built it
 This app is coded entirely in Java and was built using Android Studio.
 
