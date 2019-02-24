@@ -1,5 +1,5 @@
 # Round-A-Bout
-A people-first solution to food waste
+Welcome to Round-A-Bout: a people-first solution to food waste.
 
 ![](https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/logo.png)
 
