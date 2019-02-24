@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="459dp"
+            android:src="@drawable/map" />
+
+        <TextView
+            android:id="@+id/heb"
+            android:layout_width="match_parent"
+            android:layout_height="89dp"
+            android:paddingLeft="24dp"
+            android:paddingTop="22dp"
+            android:paddingBottom="10dp"
+            android:text="HEB                                    ➤"
+            android:textSize="30sp"
+            android:clickable="true"
+            android:onClick="go_to"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
