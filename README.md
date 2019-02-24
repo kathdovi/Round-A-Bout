@@ -11,6 +11,10 @@ Round-A-Bout (named for the intersection, meant to evoke a renewed cycle) is an 
 
 Round-A-Bout also provides an effective way for businesses to track their food elimination trends on a weekly, quarterly, and yearly basis. This provides incentive for businesses to accurately track their excess food down to the barcode and quantity as they can only receive the best analytics this way.
 
+## UI/UX Flows
+Wireframes:
+![]https://github.com/kathdovi/Round-A-Bout/blob/master/app/src/main/res/drawable/52344345_632399060507081_9201475559140360192_n-1.png
+
 ## How we built it
 This app is coded entirely in Java and was built using Android Studio.
 
@@ -29,3 +33,9 @@ Future applications include:
 - Expanded roll-out in other cities
 - Integrated barcode scanning
 - Implementation of push notifications for stores user selects
+
+## Authors
+
+* **Kathleen Doviken** - *Android Development* - [kathdovi](https://github.com/kathdovi)
+* **Marco Guajardo** - *UI/UX & Graphic Design* 
+
