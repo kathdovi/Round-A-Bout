@@ -22,6 +22,7 @@ Android User & Business Flows:
   <img src="https://github.com/kathdovi/Round-A-Bout/blob/master/user_view.gif" width="256" title="Github Logo">
   <img src="https://github.com/kathdovi/Round-A-Bout/blob/master/biz_view.gif" width="256" title="Github Logo">
 </p>
+
 ## How we built it
 This app is coded entirely in Java and was built using Android Studio.
 
